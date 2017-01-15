@@ -1,3 +1,4 @@
 markdown: redcarpet
 baseurl: /learning-resources
 exclude: ['README.md', 'LICENSE', '.gitignore', 'run-server.sh']
+permalink: pretty

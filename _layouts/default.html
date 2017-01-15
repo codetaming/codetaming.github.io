@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-uk">
 <head>
-    <title>Learning Resources</title>
+    <title>Learning Resources {%if page.title %} - {{page.title}}{% endif %}</title>
+    <link href="{{site.baserul}}/css/common.css" rel="stylesheet"/>
 </head>
 <body>
 
 <header>
     <strong>Learning Resources</strong>
-    <nav>
-        <ul>
-            <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-            <li><a href="{{site/baseurl}}/jekyll.html">Jekyll</a></li>
-        </ul>
-    </nav>
+    {% include nav.html %}
 </header>
+<h1>{{page.title}}</h1>
 
 {{content}}
 
+<footer>
+    <p>© 2017 The Code Taming Organisation</p>
+</footer>
 </body>
 </html>
