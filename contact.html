@@ -1,0 +1,33 @@
+---
+layout: default
+title: Contact
+---
+
+<div class="grid_12">
+    <h1 class="headline">Contact</h1>
+    <p class="abstract">If you would like to know more about our services please complete the form below</p>
+</div>
+<div class="clear"></div>
+<div class="grid_12">
+    <div class="box">
+        <h2>Contact Form</h2>
+        <div class="block">
+            <form method="post" action="/contact.php" id="contactform">
+                <fieldset>
+                    <label for="name" class="lb">Name:</label> <input type="text" size="50" name="name" id="name" value="" class="required textbox wide" /><br />
+                    <label for="subject" class="lb">Subject:</label> <input type="text" size="50" name="subject" id="subject" value="" class="required textbox wide" /><br />
+                    <label for="email" class="lb">Email:</label> <input type="text" size="50" name="email" id="email" value="" class="required email textbox wide" /><br />
+                    <label for="message" class="lb">Message:</label><br />
+                    <textarea cols="30" rows="7" name="message" id="message" class="required"></textarea>
+                    <div class="spam_prevention" id="pot">
+                        <label for="message"><strong>Spam prevention test:</strong><br/>If you're human leave this blank:</label>
+                        <input name="spam_prevention_test" type="text" id="spam_prevention_test" class="spam_prevention_test" value=""/>
+                    </div>
+                    <br />
+                    <input type="submit" name="submit" value="Send" class="button" />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
