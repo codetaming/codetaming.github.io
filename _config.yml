@@ -1,4 +1,4 @@
 markdown: redcarpet
-baseurl: /learning-resources
+baseurl: /
 exclude: ['README.md', 'LICENSE', '.gitignore', 'run-server.sh']
 permalink: pretty
