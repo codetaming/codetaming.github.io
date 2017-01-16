@@ -1,0 +1,19 @@
+<div class="whole branding">
+    <header>
+        <div class="header-branding">
+            <img class="header-logo" src="{{site.baseurl}}/img/logo32.png"
+                 alt="The Code Taming Organisation Logo"/>
+            <h1>The Code Taming Organisation</h1>
+        </div>
+        <div class="header-navigation">
+            <ul>
+                <li class="separator"><a class=" {% if page.url == '/' %}selected{% endif %}" href="{{site.baseurl}}/">home</a></li>
+                <li class="separator"><a class=" {% if page.url == '/resources/' or page.layout=='resource' %}selected{% endif %}" href="{{site.baseurl}}/resources/">resources</a></li>
+                <li><a class="{% if page.url == '/contact/' %}selected{% endif %}"
+                       href="{{site.baseurl}}/contact/">contact</a></li>
+
+            </ul>
+        </div>
+    </header>
+    <div class="clear"></div>
+</div>

@@ -1,4 +1,5 @@
 markdown: redcarpet
 baseurl:
+publicurl: http://www.codetaming.org
 exclude: ['README.md', 'LICENSE', '.gitignore', 'run-server.sh']
 permalink: pretty

@@ -1,0 +1,15 @@
+---
+layout: default
+title: Resources
+status: published
+---
+<div class="grid_12">
+    <h1 class="headline">{{page.title}}</h1>
+    <ul>
+        {% for page in site.pages %}
+            {% if page.layout=='resource' and page.status=='published' %}
+                {% include resource-entry.html entry=page %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
