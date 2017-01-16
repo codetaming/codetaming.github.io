@@ -6,7 +6,10 @@ video-id: Lx9ssegE6FA
 status: published
 ---
 
-{% include video.md video-title="Architecting for Continuous Delivery" video-id="Lx9ssegE6FA" video-description="DevOps and Continuous Delivery represent a new paradigm for IT service delivery that promises higher quality and stability as well as faster time-to-market. However deploying this new paradigm requires changes to both organizational culture and architecture. In this talk, Jez will present the architectural principles and patterns that enable continuous delivery at internet scale, and discuss how to incrementally evolve existing systems in order to deploy them." video-speaker-twitter="@jezhumble" video-speaker="Jez Humble" %}
+{% include video.md video-title="Architecting for Continuous Delivery" video-id="Lx9ssegE6FA" video-description="DevOps and Continuous Delivery represent a new paradigm for IT service delivery that promises higher quality and stability as well as faster time-to-market. However deploying this new paradigm requires changes to both organizational culture and architecture. In this talk, Jez will present the architectural principles and patterns that enable continuous delivery at internet scale, and discuss how to incrementally evolve existing systems in order to deploy them." video-speaker-twitter="jezhumble" video-speaker="Jez Humble" %}
+
+### Speaker
+{% include twitter-person.html twitter-id="@jezhumble" %}
 
 ###Slides
 https://confengine.com/agile-india-2016/proposal/1958/architecting-for-continuous-delivery
@@ -14,8 +17,12 @@ https://confengine.com/agile-india-2016/proposal/1958/architecting-for-continuou
 {% include skills-mapper.md %}
 
 ##Books
-Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation (Addison-Wesley Signature)
-The DevOps Handbook:: How to Create World-Class Agility, Reliability, and Security in Technology Organizations
+
+{% include amazon-book.html book-id="B00AZRBLHO" book-title="The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win" %}
+
+{% include amazon-book.html book-id="0321601912" book-title="Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation" %}
+
+{% include amazon-book.html book-id="1942788002" book-title="The Devops Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations"%}
 
 ##Video Course on Safari Online
 Live Lessons: Continuous Delivery
