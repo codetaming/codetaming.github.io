@@ -84,8 +84,8 @@ footer {
 }
 
 
-a:hover {
-	text-decoration:none;
+a {
+	color: #A2C93A;
 }
 
 li {
